@@ -2,6 +2,12 @@
 
 class GregorianToJalali
 {
+    /***
+    * @param g_y: year in Gregorian
+    * @param g_m: month in Gregorian
+    * @param g_d: day in Gregorian
+    * @return [$jy,$jm,$jd]: an array that contains year, month and day in Jalali
+    */
 static function Convert($g_y, $g_m, $g_d)
 {
     $g_days = array(31,28,31,30,31,30,31,31,30,31,30,31);
